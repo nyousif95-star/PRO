@@ -1,0 +1,54 @@
+{
+  "type": "react",
+  "repository": "https://github.com/nyousif95-star/Digital-Shaild5",
+  "name": {
+    "ar": "الدرع الرقمي للاتصالات",
+    "en": "Digital Shield Communications"
+  },
+  "description": {
+    "ar": "تهيئة أولية لثيم متجر هواتف بطابع سلماني معاصر وألوان الطين والحجر والجص.",
+    "en": "Starter configuration for a contemporary Salmani-inspired smartphone storefront with clay, stone, and plaster colors."
+  },
+  "features": [
+    "color",
+    "fonts",
+    "mega-menu",
+    "breadcrumb",
+    "filters"
+  ],
+  "settings": [
+    {
+      "id": "salmani_clay_color",
+      "label": "اللون الطيني المميز",
+      "type": "string",
+      "format": "color",
+      "required": false,
+      "value": "#A75F3C"
+    },
+    {
+      "id": "salmani_plaster_background",
+      "label": "لون خلفية الجص",
+      "type": "string",
+      "format": "color",
+      "required": false,
+      "value": "#F7F2E8"
+    },
+    {
+      "id": "salmani_wood_text",
+      "label": "لون النص الخشبي الداكن",
+      "type": "string",
+      "format": "color",
+      "required": false,
+      "value": "#2D261F"
+    },
+    {
+      "id": "salmani_ochre_accent",
+      "label": "لون الأكسنت العسلي",
+      "type": "string",
+      "format": "color",
+      "required": false,
+      "value": "#AA8050"
+    }
+  ],
+  "components": []
+}
